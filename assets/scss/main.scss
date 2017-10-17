@@ -1,0 +1,20 @@
+@import 'https://fonts.googleapis.com/css?family=Lora:400,400i,700|Source+Sans+Pro:200,400,700,900';
+
+// variables
+
+// fonts
+$Lora: 'Lora', serif;
+$SourceSans: 'Sourse San Pro', Helvetica, sans-serif;
+
+//colors
+$text: #333333;
+$link: #E87345;
+
+//Imports
+@import 'typography';
+@import 'reset';
+@import 'grid';
+
+body {
+  background-color: lightblue;
+}
