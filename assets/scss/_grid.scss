@@ -57,11 +57,10 @@ $screen : (
 
 .offset { margin-left: 50%;}
 
-
 //    GRID COLUMNS
 
 @media #{$med} {
-    .med {
+    .med, .sml {
 	&--col-8 {padding: 0 1rem; flex: 0 0 100%; max-width:100%;}
 	&--col-7 {padding: 0 1rem; flex: 0 0 87.50%; max-width:87.50%;}
 	&--col-6 {padding: 0 1rem; flex: 0 0 75%; max-width:75%;}

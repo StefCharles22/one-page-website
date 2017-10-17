@@ -14,7 +14,30 @@ $link: #E87345;
 @import 'typography';
 @import 'reset';
 @import 'grid';
+@import 'vars';
 
-body {
-  background-color: lightblue;
+.contact {
+  background-color: $text;
+  color: white;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+
+  // &__title, &__social, &__button {
+  //   flex: 100%;
+  // }
+
+  .social {
+    display: flex;
+    justify-content: center;
+
+    &__button {
+      margin: 0 1rem;
+      font-size: 1.5rem;
+      color: white;
+    }
+  }
+
+
 }

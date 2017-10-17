@@ -113,60 +113,60 @@ table {
   margin-left: 50%; }
 
 @media only screen and (min-width: 768px) {
-  .med--col-8 {
+  .med--col-8, .sml--col-8 {
     padding: 0 1rem;
     flex: 0 0 100%;
     max-width: 100%; }
-  .med--col-7 {
+  .med--col-7, .sml--col-7 {
     padding: 0 1rem;
     flex: 0 0 87.50%;
     max-width: 87.50%; }
-  .med--col-6 {
+  .med--col-6, .sml--col-6 {
     padding: 0 1rem;
     flex: 0 0 75%;
     max-width: 75%; }
-  .med--col-5 {
+  .med--col-5, .sml--col-5 {
     padding: 0 1rem;
     flex: 0 0 62.5%;
     max-width: 62.50%; }
-  .med--col-4 {
+  .med--col-4, .sml--col-4 {
     padding: 0 1rem;
     flex: 0 0 50%;
     max-width: 50%; }
-  .med--col-3 {
+  .med--col-3, .sml--col-3 {
     padding: 0 1rem;
     flex: 0 0 37.5%;
     max-width: 37.5%; }
-  .med--col-2 {
+  .med--col-2, .sml--col-2 {
     padding: 0 1rem;
     flex: 0 0 25%;
     max-width: 25%; }
-  .med--col-1 {
+  .med--col-1, .sml--col-1 {
     padding: 0 1rem;
     flex: 0 0 12.5%;
     max-width: 12.5%; }
-  .med--offset-8 {
+  .med--offset-8, .sml--offset-8 {
     padding: 0 1rem;
     margin-left: 100%; }
-  .med--offset-7 {
+  .med--offset-7, .sml--offset-7 {
     padding: 0 1rem;
     margin-left: 87.50%; }
-  .med--offset-6 {
+  .med--offset-6, .sml--offset-6 {
     padding: 0 1rem;
     margin-left: 75%; }
-  .med--offset-5 {
+  .med--offset-5, .sml--offset-5 {
     padding: 0 1rem;
     margin-left: 62.5%; }
-  .med--offset-4 {
+  .med--offset-4, .sml--offset-4 {
     padding: 0 1rem;
     margin-left: 50%; }
-  .med--offset-3 {
+  .med--offset-3, .sml--offset-3 {
     padding: 0 1rem;
     margin-left: 37.5%; }
-  .med--offset-2 {
+  .med--offset-2, .sml--offset-2 {
     padding: 0 1rem;
     margin-left: 25%; }
-  .med--offset-1 {
+  .med--offset-1, .sml--offset-1 {
     padding: 0 1rem;
     margin-left: 12.5%; } }
 @media only screen and (min-width: 1024px) {
@@ -339,7 +339,19 @@ table {
   .xlrg--offset-1 {
     padding: 0 1rem;
     margin-left: 8.333% !important; } }
-body {
-  background-color: lightblue; }
+.contact {
+  background-color: #333333;
+  color: white;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap; }
+  .contact .social {
+    display: flex;
+    justify-content: center; }
+    .contact .social__button {
+      margin: 0 1rem;
+      font-size: 1.5rem;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */
